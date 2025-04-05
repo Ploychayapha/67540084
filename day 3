@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ผลต่างของเลข</title>
+</head>
+<body style="background-color: #333; color: white; font-family: Arial, sans-serif; padding: 20px;">
+
+  <h1>คำนวณผลต่าง</h1>
+
+  <p id="result" style="font-size: 25px; color: yellow;"></p>
+
+  <script>
+    const num1 = 15;
+    const num2 = 7;
+    const diff = num1 - num2;
+    document.getElementById("result").innerHTML = `ผลต่างของ ${num1} และ ${num2} คือ ${diff}`;
+  </script>
+
+</body>
+</html>
